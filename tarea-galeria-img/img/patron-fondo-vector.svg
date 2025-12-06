@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1270 973">
+  <!-- Generator: Adobe Illustrator 29.8.3, SVG Export Plug-In . SVG Version: 2.1.1 Build 3)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: none;
+      }
+
+      .st1 {
+        fill: #fff;
+        stroke: #f0f3f4;
+        stroke-miterlimit: 10;
+        stroke-width: 9px;
+      }
+
+      .st2 {
+        fill: url(#Nueva_muestra_de_motivo_3);
+      }
+    </style>
+    <pattern id="Nueva_muestra_de_motivo_3" data-name="Nueva muestra de motivo 3" x="0" y="0" width="58" height="43.5" patternTransform="translate(-237.01 77.7)" patternUnits="userSpaceOnUse" viewBox="0 0 58 43.5">
+      <g>
+        <rect class="st0" width="58" height="43.5"/>
+        <circle class="st1" cx="87" cy="-21.75" r="29"/>
+        <circle class="st1" cx="29" cy="-21.75" r="29"/>
+        <circle class="st1" cx="-29" cy="-21.75" r="29"/>
+        <g>
+          <circle class="st1" cx="58" cy="0" r="29"/>
+          <path class="st1" d="M70.96,0c0-7.15-5.8-12.96-12.96-12.96S45.04-7.15,45.04,0s5.8,12.96,12.96,12.96S70.96,7.15,70.96,0Z"/>
+        </g>
+        <g>
+          <circle class="st1" cx="0" cy="0" r="29"/>
+          <path class="st1" d="M12.96,0C12.96-7.15,7.15-12.96,0-12.96S-12.96-7.15-12.96,0-7.15,12.96,0,12.96,12.96,7.15,12.96,0Z"/>
+        </g>
+        <circle class="st1" cx="87" cy="21.75" r="29"/>
+        <g>
+          <circle class="st1" cx="29" cy="21.75" r="29"/>
+          <path class="st1" d="M41.96,21.75c0-7.15-5.8-12.96-12.96-12.96s-12.96,5.8-12.96,12.96,5.8,12.96,12.96,12.96,12.96-5.8,12.96-12.96Z"/>
+        </g>
+        <circle class="st1" cx="-29" cy="21.75" r="29"/>
+        <g>
+          <circle class="st1" cx="58" cy="43.5" r="29"/>
+          <path class="st1" d="M70.96,43.5c0-7.15-5.8-12.96-12.96-12.96s-12.96,5.8-12.96,12.96,5.8,12.96,12.96,12.96,12.96-5.8,12.96-12.96Z"/>
+        </g>
+        <g>
+          <circle class="st1" cx="0" cy="43.5" r="29"/>
+          <path class="st1" d="M12.96,43.5C12.96,36.35,7.15,30.54,0,30.54s-12.96,5.8-12.96,12.96S-7.15,56.46,0,56.46s12.96-5.8,12.96-12.96Z"/>
+        </g>
+        <circle class="st1" cx="87" cy="65.25" r="29"/>
+        <circle class="st1" cx="29" cy="65.25" r="29"/>
+        <circle class="st1" cx="-29" cy="65.25" r="29"/>
+      </g>
+    </pattern>
+  </defs>
+  <rect class="st2" y="0" width="1270" height="973"/>
+</svg>
