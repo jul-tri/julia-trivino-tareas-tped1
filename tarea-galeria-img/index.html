@@ -4,69 +4,103 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Galería de Alicante</title>
+    <link href="lightbox/lightbox.css" rel="stylesheet" />
     <link rel="stylesheet" href="styles/styles.css" />
   </head>
 
   <body>
     <header class="titulo">
-      <h1>Galería de Alicante.</h1>
+      <h1>Galería de Alicante</h1>
     </header>
 
     <div class="gallery">
       <div class="gallery-item">
-        <a href="img/ariadne-lee.jpg" target="_blank">
+        <a
+          href="img/ariadne-lee.jpg"
+          data-lightbox="galeria"
+          data-title="Puig Campana"
+        >
           <img src="img/ariadne-lee.jpg" alt="mar y montañas" />
         </a>
-          <div class="overlay">
-            <div class="text">Puig Campana</div>
-          </div>
+        <div class="overlay"><div class="text">Puig Campana</div></div>
       </div>
+
       <div class="gallery-item">
-        <a href="img/hoja-palmera.jpg" target="_blank">
+        <a
+          href="img/hoja-palmera.jpg"
+          data-lightbox="galeria"
+          data-title="Tabarca"
+        >
           <img src="img/hoja-palmera.jpg" alt="hoja palmera" />
-       </a>
-          <div class="overlay">
-            <div class="text">Tabarca</div>
-          </div>
+        </a>
+        <div class="overlay"><div class="text">Tabarca</div></div>
       </div>
+
       <div class="gallery-item">
-        <a href="img/paseo-madera.jpg" target="_blank">
+        <a
+          href="img/paseo-madera.jpg"
+          data-lightbox="galeria"
+          data-title="Santa Pola"
+        >
           <img src="img/paseo-madera.jpg" alt="paseo madera" />
         </a>
-          <div class="overlay">
-            <div class="text">Santa Pola</div>
-          </div>
+        <div class="overlay"><div class="text">Santa Pola</div></div>
       </div>
+
       <div class="gallery-item full-width">
-        <a href="img/water-22.gif" target="_blank">
+        <a
+          href="img/water-22.gif"
+          data-lightbox="galeria"
+          data-title="Gif Agua"
+        >
           <img src="img/water-22.gif" alt="gif agua" />
         </a>
       </div>
+
       <div class="gallery-item">
-        <a href="img/_MG_8984.jpg" target="_blank">
+        <a href="img/_MG_8984.jpg" data-lightbox="galeria" data-title="Puerto">
           <img src="img/_MG_8984.jpg" alt="barcos" />
         </a>
-        <div class="overlay">
-            <div class="text">Puerto</div>
-        </div>
+        <div class="overlay"><div class="text">Puerto</div></div>
       </div>
+
       <div class="gallery-item">
         <a
-          href="img/andreas-strandman-nfG4rbqeFyc-unsplash.jpg" target="_blank">
-          <img src="img/andreas-strandman-nfG4rbqeFyc-unsplash.jpg" />
+          href="img/andreas-strandman-nfG4rbqeFyc-unsplash.jpg"
+          data-lightbox="galeria"
+          data-title="Peñón de Ifach"
+        >
+          <img
+            src="img/andreas-strandman-nfG4rbqeFyc-unsplash.jpg"
+            alt="Peñón de Ifach"
+          />
+        </a>
+        <div class="overlay"><div class="text">Peñón de Ifach</div></div>
+      </div>
+
+      <div class="gallery-item">
+        <a
+          href="img/castillo-stbarbara.jpg"
+          data-lightbox="galeria"
+          data-title="Castillo de Santa Bárbara"
+        >
+          <img src="img/castillo-stbarbara.jpg" alt="castillo" />
         </a>
         <div class="overlay">
-            <div class="text">Peñón de Ifach</div>
+          <div class="text">Castillo de Santa Bárbara</div>
         </div>
       </div>
-      <div class="gallery-item">
-        <a href="img/castillo-stbarbara.jpg" target="_blank">
-          <img src="img/castillo-stbarbara.jpg" alt="castillo-stbarbara" />
-        </a>
-         <div class="overlay">
-            <div class="text">Castillo de Santa Barbara</div>
-         </div>
-      </div>
     </div>
+
+    <script src="lightbox/lightbox-plus-jquery.js"></script>
+
+    <script>
+      lightbox.option({
+        resizeDuration: 200,
+        wrapAround: true,
+        fadeDuration: 300,
+        imageFadeDuration: 300,
+      });
+    </script>
   </body>
 </html>
