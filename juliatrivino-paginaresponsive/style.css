@@ -1,0 +1,123 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background:#eef5f2;
+  color:#111;
+  font-size: 18px;
+}
+
+header {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:25px 50px;
+  border-bottom:1px solid black;
+}
+
+.logo {
+  font-size:1.2rem;
+  font-weight:300;
+}
+
+nav a {
+  margin-left:40px;
+  text-decoration:none;
+  color:black;
+  font-size:0.9rem;
+}
+
+.proyectos {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap:40px;
+  padding:60px;
+}
+
+.portada {
+  grid-column:1 / span 2;
+  position: relative;
+  overflow:hidden;
+}
+
+.portada h2 {
+  position:absolute;
+  bottom:30px;
+  left:30px;
+  background:white;
+  padding:15px 20px;
+  font-size:1.6rem;
+  font-weight:300;
+}
+
+.proyectos > div,
+.tres-en-fila > div {
+  position:relative;
+  overflow:hidden;
+}
+
+.proyectos img,
+.tres-en-fila img {
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+  transition:0.4s;
+}
+
+.proyectos > div:hover img,
+.tres-en-fila img:hover {
+  transform:scale(1.05);
+}
+
+.tres-en-fila {
+  display:flex;
+  gap:20px;
+  justify-content:space-between;
+}
+
+.tres-en-fila .redescubre {
+  flex: 1;
+}
+
+@media (min-width:1920px){
+  body { font-size:20px; }
+  .proyectos { padding:80px; gap:50px; }
+  .portada h2 { font-size:2rem; padding:20px 25px; }
+}
+
+@media (max-width:1919px) and (min-width:1366px){
+  body { font-size:18px; }
+  .proyectos { padding:60px; gap:40px; }
+  .portada h2 { font-size:1.8rem; }
+}
+
+@media (max-width:1365px) and (min-width:1180px){
+  body { font-size:16px; }
+  .proyectos { grid-template-columns: 2fr 1fr; padding:50px; gap:30px; }
+  .portada h2 { font-size:1.6rem; }
+}
+
+@media (max-width:1179px) and (min-width:820px){
+  body { font-size:15px; }
+  .proyectos { grid-template-columns:1fr 1fr; padding:40px; gap:30px; }
+  .portada h2 { font-size:1.5rem; }
+}
+
+@media (max-width:844px) {
+  body { font-size:14px; }
+  .proyectos { grid-template-columns:1fr; padding:30px; gap:20px; }
+  .portada h2 { font-size:1.3rem; bottom:15px; left:15px; }
+  .tres-en-fila { flex-direction: column; gap:20px; }
+}
+
+@media (max-width:414px){
+  body { font-size:13px; }
+  header { padding:15px; }
+  .portada h2 { font-size:1.1rem; padding:10px 15px; }
+  .tres-en-fila { gap:15px; }
+}
