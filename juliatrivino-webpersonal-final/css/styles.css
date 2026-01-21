@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f8f8f8;
+  padding-top: 80px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.navbar {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
+
+section {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+
+.portfolio-title {
+  font-size: 2.6rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.portfolio-subtitle {
+  color: #777;
+  font-size: 1rem;
+}
+
+#sobre-mi p {
+  font-size: 1.5rem;
+  color: #555;
+  margin-top: 5rem;
+}
+
+.gallery-item {
+  display: block;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.4s, box-shadow 0.4s;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.4s;
+}
+
+.gallery-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.9);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+  z-index: 9999;
+  text-align: center;
+  overflow-y: auto;
+}
+
+.lightbox img {
+  max-width: 90%;
+  max-height: 70vh;
+  margin-bottom: 1.5rem;
+}
+
+.lightbox h3 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.lightbox p {
+  color: #ccc;
+  max-width: 600px;
+  margin: 0 auto 1rem;
+  font-size: 1rem;
+}
+
+.lightbox:target {
+  display: flex;
+}
+
+.lightbox .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 2rem;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.lightbox .close:hover {
+  color: #007bff;
+}
+
+#contacto {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  padding: 3rem 2rem;
+}
+
+#contacto h2 {
+  margin-bottom: 1rem;
+}
+
+#contacto a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#contacto a:hover {
+  text-decoration: underline;
+}
+
+footer.footer {
+  background-color: #000;
+  color: #ccc;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+footer.footer a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+footer.footer a:hover {
+  color: #007bff;
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 2rem;
+  }
+
+  .portfolio-title {
+    font-size: 2.2rem;
+  }
+
+  .gallery-item {
+    margin-bottom: 2rem;
+  }
+}
